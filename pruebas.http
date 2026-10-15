@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:8080/api/estudiantes/
+PUT http://localhost:8080/api/estudiantes/1
 Content-Type: application/json
 
 {
