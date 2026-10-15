@@ -1,0 +1,31 @@
+POST http://localhost:8080/api/estudiantes
+Content-Type: application/json
+
+{
+  "nombre": "Ana",
+  "apellido": "Pérez",
+  "correo": "ana.perez@universidad.edu",
+  "programa": "Ingeniería de Sistemas"
+}
+
+###
+PUT http://localhost:8080/api/estudiantes/
+Content-Type: application/json
+
+{
+  "nombre": "Ana Sofía",
+  "apellido": "Pérez Gómez",
+  "correo": "ana.perez@universidad.edu",
+  "programa": "Ingeniería Industrial"
+}
+
+###
+POST http://localhost:8080/api/estudiantes
+Content-Type: application/json
+
+{
+  "nombre": "",
+  "apellido": "Pérez",
+  "correo": "correo-sin-formato-valido",
+  "programa": ""
+}
